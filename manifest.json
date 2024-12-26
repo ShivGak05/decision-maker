@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Decision Maker",
+    "action": {
+        "default_popup": "bhai.html",
+        "default_icon": "image.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
