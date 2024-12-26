@@ -1,0 +1,60 @@
+/* General Body Styling */
+body {
+    min-height: 300px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f4f4f9; /* Light background for better contrast */
+    padding: 20px; /* Adds space around content */
+    margin: 0;
+    font-family: Arial, sans-serif; /* More readable font */
+}
+button{
+    font: bold;
+    color: brown;
+    background-color:antiquewhite;
+    padding:3px;
+}
+button:hover{
+    background-color: brown;
+    color:bisque;
+    font-size: larger;
+}
+/* Image Styling */
+img {
+    border: 3px solid red; /* Adds a red border */
+    padding: 3px; /* Optional: Adds some space between the image and the border */
+    border-radius: 8px; /* Optional: Rounded corners for the border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow around the image */
+    width: 500px;
+    height: 200px;
+}
+
+/* Unordered List (ul) Styling */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Adds vertical space around the list */
+    padding: 0; /* Removes default padding */
+}
+
+/* Input Field Styling */
+textarea {
+    border: 3px solid red;
+    padding: 8px 15px; /* Adds padding inside the input for better user experience */
+    font-size: 16px; /* Makes the text inside the input more readable */
+    border-radius: 5px; /* Rounded corners for the input */
+    transition: border-color 0.3s ease; /* Smooth transition for border color on focus */
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #ff6347; /* Changes the border color to a soft red when focused */
+}
+
+/* List Item (li) Styling */
+li {
+    margin: 0 10px; /* Consistent margin on left and right */
+    font-size: 18px; /* Increased font size for better readability */
+}
